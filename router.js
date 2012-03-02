@@ -9,6 +9,7 @@ var handler = {};
 handler["/"] = handle.list;
 handler["/Action"] = handle.list;
 handler["/action"] = handle.list;
+handler["/actions"] = handle.list;
 handler["/Files"] = handle.download;
 
 /* to handle upload request*/
